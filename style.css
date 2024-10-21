@@ -5,5 +5,7 @@ margin-left: auto;
 margin-right: auto;
 min-width: 900px;
 max-width: 1280px;}
-body {border: 1px;}
+body {border: 1px;
+border-color: black;
+border-style: solid;}
 nav a {text-decoration: none;}
