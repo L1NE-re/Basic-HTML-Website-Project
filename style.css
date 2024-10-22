@@ -39,6 +39,7 @@ aside {
     height: 100%;
     padding-left: 0.5em;
     box-sizing: border-box;
+    padding-bottom: 0.5em;
 }
 
 #work {
@@ -53,6 +54,7 @@ aside {
     box-sizing: border-box;
     border-left: 1px;
     border-left-style: solid;
+    padding-bottom: 0.5em;
 }
 
 main {
@@ -67,4 +69,21 @@ main {
     width: 30%;
     padding-left: 0.5em;
     box-sizing: border-box;
+    padding-bottom: 0.5em;
+}
+@media only screen and (max-width: 600px) {
+aside{
+    width: 100%;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+#work {
+    border-left-style: hidden;
+    width: 100%;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+}
+#edu {
+    width: 100%;
+}
 }
