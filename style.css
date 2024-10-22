@@ -23,4 +23,8 @@ padding: 0.8em;
 float: left;
 height: 200px}
 #work {height: 200px;
-padding: 0.8em}
+margin-top: 0px;
+padding-top: .8em;
+padding-left: 0.8em;
+float: left;}
+main {height: 200px;}
