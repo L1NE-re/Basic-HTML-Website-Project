@@ -17,4 +17,5 @@ header {border-bottom: 1px;
 border-bottom-width: 80%;
 border-bottom-style: solid;}
 aside {border-right-style: solid;
-width: 20%;}
+width: 20%;
+border-right: 1px;}
