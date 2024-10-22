@@ -19,4 +19,8 @@ border-bottom-style: solid;}
 aside {border-right: 1px;
 border-right-style: solid;
 width: 20%;
-padding: 0.8em;}
+padding: 0.8em;
+float: left;
+height: 200px}
+#work {height: 200px;
+padding: 0.8em}
