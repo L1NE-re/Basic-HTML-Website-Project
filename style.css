@@ -1,6 +1,6 @@
 h1 {text-align: center;}
 nav {text-align: right;
-font-size: 1.5em;
+font-size: 1.25em;
 padding-right: 15px;}
 #wrapper {width: 80%;
 margin-left: auto;
@@ -13,3 +13,8 @@ border-style: solid;
 border-width: 80%;}
 nav a {text-decoration: none;
 color: black;}
+header {border-bottom: 1px;
+border-bottom-width: 80%;
+border-bottom-style: solid;}
+aside {border-right-style: solid;
+width: 20%;}
