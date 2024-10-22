@@ -21,7 +21,9 @@ border-right-style: solid;
 width: 20%;
 padding: 0.8em;
 float: left;
-height: 200px}
+height: 200px;
+padding-bottom: 0px;
+padding-top: 0px;}
 #work {height: 200px;
 margin-top: 0px;
 padding-top: 0.8em;
