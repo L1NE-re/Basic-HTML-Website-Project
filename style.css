@@ -5,7 +5,8 @@ h1 {
 nav {
     text-align: right;
     font-size: 1.25em;
-    padding-right: 15px;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
 }
 
 #wrapper {
@@ -65,23 +66,27 @@ main {
     width: 30%;
     box-sizing: border-box;
 }
+
 @media only screen and (max-width: 600px) {
-aside{
-    width: 100%;
-    border-bottom: 1px;
-    border-bottom-style: solid;
-}
-#work {
-    border-left-style: hidden;
-    border-right-style: hidden;
-    width: 100%;
-    border-bottom: 1px;
-    border-bottom-style: solid;
-}
-#edu {
-    width: 100%;
-}
-#wrapper {
-    width: 100%;
-}
+    aside {
+        width: 100%;
+        border-bottom: 1px;
+        border-bottom-style: solid;
+    }
+
+    #work {
+        border-left-style: hidden;
+        border-right-style: hidden;
+        width: 100%;
+        border-bottom: 1px;
+        border-bottom-style: solid;
+    }
+
+    #edu {
+        width: 100%;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
 }
