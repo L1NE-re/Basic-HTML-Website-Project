@@ -39,6 +39,7 @@ aside {
     float: left;
     height: 200px;
     padding-left: 0.5em;
+    box-sizing: border-box;
 }
 
 #work {
@@ -48,8 +49,9 @@ aside {
     float: left;
     border-right: 1px;
     border-right-style: solid;
-    width: 50%;
+    width: 60%;
     padding-left: 0.5em;
+    box-sizing: border-box;
 }
 
 main {
@@ -63,4 +65,5 @@ main {
     float: left;
     width: 20%;
     padding-left: 0.5em;
+    box-sizing: border-box;
 }
