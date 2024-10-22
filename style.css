@@ -55,16 +55,20 @@ aside {
 }
 
 main {
-    height: 100%;
+    height: fit-content;
 }
 
 #edu {
-    height: 100%;
+    height: fit-content;
     margin-top: 0px;
     padding: 0.5em;
     float: left;
     width: 30%;
     box-sizing: border-box;
+}
+
+#hidden {
+    font-size: 1px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -88,5 +92,9 @@ main {
 
     #wrapper {
         width: 100%;
+    }
+
+    main {
+        height: 100%;
     }
 }
