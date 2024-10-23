@@ -83,8 +83,8 @@ main {
 }
 
 #flex-container > div {
-      margin: 10px;
-      padding: 20px;
+      margin: 5px;
+      padding: 5px;
       font-size: 16px;
       text-align: center;
 }
