@@ -52,6 +52,7 @@ aside {
     box-sizing: border-box;
     border-left: 1px;
     border-left-style: solid;
+    height: 349.25px;
 }
 
 main {
@@ -71,7 +72,7 @@ main {
     font-size: 1px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1003px) {
     aside {
         width: 100%;
         border-bottom: 1px;
