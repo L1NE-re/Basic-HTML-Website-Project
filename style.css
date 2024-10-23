@@ -88,6 +88,7 @@ main {
 
     #edu {
         width: 100%;
+        
     }
 
     #wrapper {
@@ -96,5 +97,8 @@ main {
 
     main {
         height: 100%;
+    }
+    #edu h3 {
+        margin-top: 0px;
     }
 }
