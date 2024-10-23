@@ -38,6 +38,8 @@ aside {
     float: left;
     height: 100%;
     box-sizing: border-box;
+    overflow: auto;
+    overflow-wrap: break-word;
 }
 
 #work {
@@ -51,6 +53,8 @@ aside {
     box-sizing: border-box;
     border-left: 1px;
     border-left-style: solid;
+    overflow: auto;
+    overflow-wrap: break-word;
 }
 
 main {
