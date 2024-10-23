@@ -19,7 +19,6 @@ nav {
     border-color: black;
     border-style: solid;
     border-width: 80%;
-    overflow: auto;
 }
 
 nav a {
@@ -52,27 +51,27 @@ aside {
     box-sizing: border-box;
     border-left: 1px;
     border-left-style: solid;
-    height: 349.25px;
 }
 
 main {
-    height: fit-content;
+    height: 350px;
 }
 
 #edu {
-    height: fit-content;
     margin-top: 0px;
     padding: 0.5em;
     float: left;
     width: 30%;
     box-sizing: border-box;
+    max-height: 350px;
+    overflow: auto;
 }
 
 #hidden {
     font-size: 1px;
 }
 
-@media only screen and (max-width: 1003px) {
+@media only screen and (max-width: 600px) {
     aside {
         width: 100%;
         border-bottom: 1px;
@@ -89,7 +88,7 @@ main {
 
     #edu {
         width: 100%;
-        
+
     }
 
     #wrapper {
@@ -99,6 +98,7 @@ main {
     main {
         height: 100%;
     }
+
     #edu h3 {
         margin-top: 0px;
     }
