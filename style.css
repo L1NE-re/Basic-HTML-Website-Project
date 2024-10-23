@@ -102,7 +102,8 @@ main {
 
     #edu {
         width: 100%;
-
+        border-bottom: 1px;
+        border-bottom-style: solid;
     }
 
     #wrapper {
