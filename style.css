@@ -129,4 +129,8 @@ main {
     #flex-container {
         display: flow
     }
+
+    main {
+        border-style: hidden;
+    }
 }
