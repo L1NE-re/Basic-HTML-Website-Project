@@ -85,6 +85,14 @@ main {
     align-self: center;
 }
 
+#flex-container>div>p {
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    border-radius: 16px;
+}
+
 @media only screen and (max-width: 600px) {
     aside {
         width: 100%;
