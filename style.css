@@ -91,6 +91,11 @@ main {
     border-radius: 16px;
 }
 
+#card {
+    width: 100%;
+    max-width: 425px;
+}
+
 @media only screen and (max-width: 600px) {
     aside {
         width: 100%;
