@@ -128,6 +128,10 @@ a {
     overflow-wrap: break-word;
 }
 
+#site h2 {
+    padding-top: 0px;
+}
+
 #tall {
     width: 25%;
 }
