@@ -203,4 +203,10 @@ a {
         border-bottom: 1px;
         border-bottom-style: solid;
     }
+
+    #github {
+        width: 100%;
+        border-bottom: 1px;
+        border-bottom-style: solid;
+    }
 }
