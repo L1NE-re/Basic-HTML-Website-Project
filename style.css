@@ -132,6 +132,10 @@ a {
     width: 25%;
 }
 
+#github {
+    padding-left: 5px;
+}
+
 @media only screen and (max-width: 600px) {
     aside {
         width: 100%;
