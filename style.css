@@ -128,6 +128,10 @@ a {
     overflow-wrap: break-word;
 }
 
+#tall {
+    width: 25%;
+}
+
 @media only screen and (max-width: 600px) {
     aside {
         width: 100%;
