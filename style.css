@@ -7,6 +7,7 @@ nav {
     font-size: 1.25em;
     padding-right: 7.5px;
     padding-left: 7.5px;
+    color: white;
 }
 
 #wrapper {
@@ -15,14 +16,14 @@ nav {
     margin-right: auto;
     min-width: 300px;
     max-width: 1280px;
-    border: 1px;
-    border-color: black;
+    border: 1px;;
     border-style: solid;
+    color: white;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header {
@@ -59,6 +60,7 @@ main {
     height: 350px;
     border-bottom: 1px;
     border-bottom-style: solid;
+    color: white;
 }
 
 #edu {
@@ -98,6 +100,11 @@ main {
 
 #widecard {
     width: 100%;
+}
+
+body {
+    background-color: #0c1117;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
