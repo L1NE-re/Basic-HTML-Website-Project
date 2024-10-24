@@ -128,7 +128,7 @@ a {
     overflow-wrap: break-word;
 }
 
-#site h2 {
+#site>h2 {
     padding-top: 0px;
     margin-top: 0px;
 }
