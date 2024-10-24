@@ -107,6 +107,10 @@ body {
     color: white;
 }
 
+a {
+    color: #4493f8;
+}
+
 @media only screen and (max-width: 600px) {
     aside {
         width: 100%;
