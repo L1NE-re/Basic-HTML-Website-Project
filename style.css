@@ -96,6 +96,8 @@ main {
 #card {
     width: 100%;
     max-width: 425px;
+    float: left;
+    float: left;
 }
 
 #widecard {
@@ -109,6 +111,21 @@ body {
 
 a {
     color: #4493f8;
+}
+
+#site {
+    height: 100%;
+    margin-top: 0px;
+    padding: 0.5em;
+    float: left;
+    border-right: 1px;
+    border-right-style: solid;
+    width: 50%;
+    box-sizing: border-box;
+    border-left: 1px;
+    border-left-style: solid;
+    overflow: auto;
+    overflow-wrap: break-word;
 }
 
 @media only screen and (max-width: 600px) {
