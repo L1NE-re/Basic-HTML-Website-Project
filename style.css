@@ -16,7 +16,7 @@ nav {
     margin-right: auto;
     min-width: 300px;
     max-width: 1280px;
-    border: 1px;;
+    border: 1px;
     border-style: solid;
     color: white;
 }
@@ -79,10 +79,9 @@ main {
 }
 
 #flex-container>div {
-    margin: 10px;
+    margin: auto;
     padding: 15px;
     font-size: 22px;
-    align-self: center;
 }
 
 #flex-container>div>p {
@@ -140,6 +139,20 @@ a {
 #github {
     padding-left: 5px;
     float: left;
+    width: 30%;
+    box-sizing: border-box;
+    height: 100%;
+    margin-top: 0px;
+    padding: 0.5em
+}
+
+#github>h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#github>ul {
+    padding-left: 0px;
 }
 
 @media only screen and (max-width: 600px) {
