@@ -168,4 +168,12 @@ a {
     main {
         border-style: hidden;
     }
+
+    #site {
+        border-left-style: hidden;
+        border-right-style: hidden;
+        width: 100%;
+        border-bottom: 1px;
+        border-bottom-style: solid;
+    }
 }
