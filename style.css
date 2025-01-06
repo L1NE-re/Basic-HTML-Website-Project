@@ -214,4 +214,8 @@ a {
         border-bottom: 1px;
         border-bottom-style: solid;
     }
+    
+    #college {
+        float: none;
+    }
 }
