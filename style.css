@@ -158,6 +158,8 @@ a {
 #college {
     float: left;
     padding-left: 30px;
+    width: 70%;
+    overflow-wrap: break-word;
 }
 
 @media only screen and (max-width: 600px) {
@@ -214,7 +216,7 @@ a {
         border-bottom: 1px;
         border-bottom-style: solid;
     }
-    
+
     #college {
         float: none;
     }
